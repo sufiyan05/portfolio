@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function() {
     initContactForm();
     initButtonRipple();
     initParallax();
+    initCurrentYear();
 });
 
 // ============================================
@@ -362,6 +363,16 @@ function initFocusTrap() {
             }
         }
     });
+}
+
+// ============================================
+// CURRENT YEAR
+// ============================================
+function initCurrentYear() {
+    const currentYearElement = document.getElementById('currentYear');
+    if (currentYearElement) {
+        currentYearElement.textContent = new Date().getFullYear();
+    }
 }
 
 // ============================================
