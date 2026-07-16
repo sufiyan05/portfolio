@@ -217,8 +217,28 @@ Feel free to fork this project and customize it for your own portfolio!
 ## 📞 Contact
 
 For inquiries or collaboration:
-- Email: sufiyan.sitponiya@gmail.com
+- Email: sufiyansitponia60@gmail.com
 - Location: Bharuch, Gujarat, India
+
+## 📧 Contact Form Setup
+
+The contact form uses Formspree for email delivery. To enable it:
+
+1. Go to https://formspree.io/
+2. Sign up for a free account
+3. Create a new form
+4. Copy your Formspree Form ID
+5. Replace `YOUR_FORMSPREE_ID` in `index.html` line 464 with your actual Form ID
+6. The form will now send messages directly to your email
+
+Example: If your Form ID is `abc123`, change:
+```html
+action="https://formspree.io/f/YOUR_FORMSPREE_ID"
+```
+to:
+```html
+action="https://formspree.io/f/abc123"
+```
 
 ---
 
