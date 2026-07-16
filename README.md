@@ -222,23 +222,15 @@ For inquiries or collaboration:
 
 ## 📧 Contact Form Setup
 
-The contact form uses Formspree for email delivery. To enable it:
+The contact form uses Formspree for email delivery. It's already configured with your Formspree ID.
 
+Form submissions will be sent directly to: sufiyansitponia60@gmail.com
+
+To change the email or form settings:
 1. Go to https://formspree.io/
-2. Sign up for a free account
-3. Create a new form
-4. Copy your Formspree Form ID
-5. Replace `YOUR_FORMSPREE_ID` in `index.html` line 464 with your actual Form ID
-6. The form will now send messages directly to your email
-
-Example: If your Form ID is `abc123`, change:
-```html
-action="https://formspree.io/f/YOUR_FORMSPREE_ID"
-```
-to:
-```html
-action="https://formspree.io/f/abc123"
-```
+2. Log in to your account
+3. Manage your form settings
+4. Update the Form ID in `index.html` line 464 if needed
 
 ---
 
